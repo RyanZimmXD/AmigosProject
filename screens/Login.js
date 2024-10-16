@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 const LoginScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <Text>{leftPad("foo", 100)}</Text>
+            <Text></Text>
             <TextInput style={styles.LoginTextInput} placeholder="Id #" />
             <TextInput style={styles.LoginTextInput} placeholder="password" />
             <StatusBar style="auto" />
